@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '#include<stdio.h>\n'>CFILE.c | echo -e 'int main(void)\n'>CFILE.c | echo -e '{ \n'>CFILE.c | echo -e 'prinf(Hello world)\n'>CFILE.c | echo -e '} \n'>CFILE.c | gcc CFILE.c -o 'C'
+gcc $CFILE -E -o c
