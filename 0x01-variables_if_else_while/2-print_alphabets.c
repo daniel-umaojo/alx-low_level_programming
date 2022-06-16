@@ -8,13 +8,12 @@
 */
 int main(void)
 {
-	char ch = 'a', ch1 = 'A';
+	char c;
+	char d;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-
-	for (ch1 = 'A'; ch1 <= 'Z'; ch++)
-		putchar(ch1);
-
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (d = 'A'; d <= 'Z'; d++)
+		putchar(d);
 	return (0);
 }
