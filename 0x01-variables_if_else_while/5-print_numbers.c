@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main- Entry point
  * * Description:C file that reads alphabet
@@ -8,9 +7,9 @@
 */
 int main(void)
 {
-	char c = '0';
+	char c;
 
-	for (c = 0; c <= 9; c++)
+	for (c = '0'; c <= '9'; c++)
 		putchar(c);
 	putchar('\n');
 	return (0);
